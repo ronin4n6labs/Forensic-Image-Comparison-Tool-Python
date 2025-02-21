@@ -74,9 +74,19 @@ All outputs are saved in a subfolder named "IMG-Comparison-Tool".
 
 ## Methodology
 
-This script is based on the methodology described in:
+This script is based on analysis methodology used in:
 
 Wales, G. S. Validation of image stream hashing: A forensic method for content verification. J Forensic Sci. 2024; 69: 515–28. [https://doi.org/10.1111/1556-4029.15432](https://doi.org/10.1111/1556-4029.15432)
+
+## Author
+
+Gregory S. Wales, DFS
+Email:  media4n6@gmail.com
+GitHub Ronin4n6labs
+
+## Version
+
+1.3 (February 21, 2025)
 
 ## License
 
