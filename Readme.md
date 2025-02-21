@@ -101,7 +101,9 @@ Wales, G. S. (2025). Image Comparison Tool (Version 1.3) [Computer software]. ht
 ## Author
 
 Gregory S. Wales, DFS
+
 Email: media4n6@gmail.com
+
 GitHub: Ronin4n6labs
 
 ## Version
