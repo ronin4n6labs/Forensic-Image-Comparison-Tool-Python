@@ -1,5 +1,9 @@
 # Image Comparison Tool
 
+![Version](https://img.shields.io/badge/version-1.3-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.6%2B-yellow)
+
 ## Overview
 
 The **Image Comparison Tool** is a Python script designed for intermediate-level forensic analysis of digital images. It goes beyond basic metadata analysis to perform pixel-level comparisons between a reference image and a questioned image, identifying similarities and differences using advanced image processing techniques. While not exhaustive, this tool provides valuable insights for various applications, including image authentication, detection of image alterations, and forensic image comparison. It serves as a robust starting point for digital image forensics, offering quantitative and visual representations of image differences.
