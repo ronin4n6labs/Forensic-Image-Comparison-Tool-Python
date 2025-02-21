@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Image Comparison Tool** is a Python script designed for forensic analysis of digital images. It compares a reference image with a questioned image to identify similarities and differences using image processing techniques. This tool can be used for various applications, including image authentication, detection of image alterations, and forensic image comparison.
+The **Image Comparison Tool** is a Python script designed for intermediate-level forensic analysis of digital images. It goes beyond basic metadata analysis to perform pixel-level comparisons between a reference image and a questioned image, identifying similarities and differences using advanced image processing techniques. While not exhaustive, this tool provides valuable insights for various applications, including image authentication, detection of image alterations, and forensic image comparison. It serves as a robust starting point for digital image forensics, offering quantitative and visual representations of image differences.
 
 ## Features
 
