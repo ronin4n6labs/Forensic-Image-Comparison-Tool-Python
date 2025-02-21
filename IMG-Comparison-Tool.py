@@ -62,7 +62,8 @@
 # - Total processing time may vary based on image sizes
 #
 # This script compares two images and generates a report of the differences.
-# It is based on the methodology described in:
+# It is based on methodology used in:
+#
 # Wales, G. S. Validation of image stream hashing: A forensic method for content verification. 
 # J Forensic Sci. 2024; 69: 515–28. https://doi.org/10.1111/1556-4029.15432
 #
