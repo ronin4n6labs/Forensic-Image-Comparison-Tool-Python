@@ -39,7 +39,8 @@ pip install numpy matplotlib Pillow opencv-python
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/ronin4n6labs/Image-Comparison-Tool.git
+git clone https://github.com/ronin4n6labs/IMG-Comparison-Tool-Python.git
+
 
 2. Navigate to the project directory:
 
