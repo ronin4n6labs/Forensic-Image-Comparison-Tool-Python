@@ -1,3 +1,72 @@
+# ===========================================================================
+#
+# Script Name: IMG-Subtraction-Analysis.py
+#
+# Script Written by Gregory S. Wales, DFS
+# Date: February 26, 2025
+# Image Subtraction Analysis for Digital Image Forensics
+# - script v1.1
+# Email: media4n6@gmail.com
+# GITHUB: ronin4n6labs
+#
+# ---------------------------------------------------------------------------
+#
+# Purpose of this script:
+# This script implements image subtraction analysis for digital image comparison.
+# It performs pixel-by-pixel subtraction between a reference image and a questioned image
+# to identify differences.
+#
+# Applications of this script include:
+# 1. Forensic image comparison
+# 2. Detection of image alterations
+# 3. Visualization of image differences
+#
+# Process:
+# 1. Select a reference image file.
+# 2. Select a questioned image file.
+# 3. Perform image subtraction.
+# 4. Generate a difference image and quantitative similarity metrics.
+# 5. Output a report including the difference image, histograms, and similarity percentage.
+#
+# The script analyzes:
+# 1. Pixel differences between images
+# 2. Quantitative measures of similarity
+#
+# It is designed to determine and visualize differences between two images.
+#
+# Requirements:
+# - tkinter
+# - Pillow (PIL)
+# - opencv-python (cv2)
+# - numpy
+# - matplotlib
+# - subprocess
+# - os
+#
+# The script produces a detailed report in a text file and generates visual outputs.
+#
+# Error handling includes checks for file selection and image loading.
+#
+# The following packages are required:
+# - Pillow (PIL): Image processing library
+# - tkinter: GUI library
+# - opencv-python (cv2): Computer vision library
+# - numpy: Numerical computing library
+# - matplotlib: Plotting library
+#
+# To install, use the following commands:
+# pip install Pillow
+# pip install opencv-python
+# pip install numpy
+# pip install matplotlib
+#
+# External Tool Requirements:
+# - PowerShell (for Get-FileHash cmdlet)
+#
+# Please reference The MIT License file included with this script.
+# ===========================================================================
+
+
 import tkinter as tk
 from tkinter import filedialog
 import os

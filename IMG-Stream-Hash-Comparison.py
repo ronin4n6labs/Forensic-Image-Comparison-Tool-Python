@@ -1,3 +1,64 @@
+# ===========================================================================
+#
+# Script Name: IMG-Stream-Hash-Comparison.py
+#
+# Script Written by Gregory S. Wales, DFS
+# Date: February 26, 2025
+# Image Stream Hash Comparison Analysis for Digital Image Forensics
+# - script v1.1
+# Email: media4n6@gmail.com
+# GITHUB: ronin4n6labs
+#
+# ---------------------------------------------------------------------------
+#
+# Purpose of this script:
+# This script implements the image stream hashing method for digital image comparison.
+# It computes SHA256 hashes of image streams and compares them to determine similarity.
+#
+# Applications of this script include:
+# 1. Forensic image comparison
+# 2. Content verification
+# 3. Detection of image alterations
+#
+# Process:
+# 1. Select a reference image file.
+# 2. Select a questioned image file.
+# 3. Generate stream hashes for both files using ffmpeg.
+# 4. Compare the generated stream hashes.
+# 5. Output a report indicating whether the image streams are similar or not.
+#
+# The script analyzes:
+# 1. File hashes (MD5, SHA-1, SHA-256)
+# 2. Image stream hashes (SHA256)
+#
+# It is designed to determine if the image streams are similar or not.
+#
+# Requirements:
+# - ffmpeg (accessible via command line)
+# - Pillow (PIL)
+# - tkinter
+# - subprocess
+# - os
+#
+# The script produces a detailed report in a text file.
+#
+# Error handling includes checks for file selection, hash generation, and comparison.
+#
+# The following packages are required:
+# - Pillow (PIL): Image processing library
+# - tkinter:  GUI library
+#
+# To install, use the following commands:
+# pip install Pillow
+#
+# External Tool Requirements:
+# - PowerShell (for Get-FileHash cmdlet)
+# - FFmpeg: (for streamhash)
+#
+# Please reference The MIT License file included with this script.
+# ===========================================================================
+
+
 import os
 import tkinter as tk
 from tkinter import filedialog

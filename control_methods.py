@@ -1,3 +1,69 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# ===========================================================================
+#
+# Script Name: control_methods.py
+#
+# Script Written by Gregory S. Wales, DFS
+# Date: February 26, 2025
+# Image Comparison Control Methods Analysis for Digital Image Forensics
+# - script v1.4
+# Email: media4n6@gmail.com
+# GITHUB: ronin4n6labs
+#
+# ---------------------------------------------------------------------------
+#
+# Purpose of this script:
+# This script implements standard control methods for image stream hashing to mitigate errors
+# in method operations from a method validation study.
+# It checks image compatibility for image comparison techniques.
+#
+# Applications of this image format analysis include:
+# 1. Determining if image stream hashing can be performed
+# 2. Recommending alternative methods if image stream hashing is not suitable
+# 3. Preventing false positive and false negative errors in image comparison
+#
+# Process:
+# 1. Select a reference image file.
+# 2. Select a questioned image file.
+# 3. Analyze the file format, dimensions, color space, and bit depth of both images.
+# 4. Generate a report indicating compatibility and any discrepancies found.
+#
+# The script analyzes:
+# 1. File Format
+# 2. Image Dimensions
+# 3. Color Space
+# 4. Bit Depth
+#
+# It is designed to help determine if a potential for errors exist from:
+# 1. False Negatives
+# 2. False Positives
+#
+# Requirements:
+# - Pillow (PIL)
+# - tkinter
+# - subprocess
+# - imghdr
+# - os
+#
+# The script produces a detailed report in a text file.
+#
+# Error handling includes checks for file selection and format identification.
+#
+# The following packages are required:
+# - Pillow (PIL): Image processing library
+# - tkinter:  GUI library
+#
+# To install, use the following commands:
+# pip install Pillow
+#
+# External Tool Requirements:
+# - PowerShell (for Get-FileHash cmdlet)
+#
+# Please reference The MIT License file included with this script.
+# ===========================================================================
+
+
 import os
 import tkinter as tk
 from tkinter import filedialog
