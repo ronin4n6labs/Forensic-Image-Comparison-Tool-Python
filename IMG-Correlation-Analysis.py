@@ -1,6 +1,6 @@
 # ===========================================================================
 #
-# Script Name: IMG-Subtraction-Analysis.py
+# Script Name: IMG-Correlation-Analysis.py
 #
 # Script Written by Gregory S. Wales, DFS
 # Date: February 26, 2025
@@ -12,9 +12,9 @@
 # ---------------------------------------------------------------------------
 #
 # Purpose of this script:
-# This script implements image subtraction analysis for digital image comparison.
-# It performs pixel-by-pixel subtraction between a reference image and a questioned image
-# to identify differences.
+# This script implements image correlation analysis for digital image comparison.
+# It performs Pearson Correlation Coefficient between a reference image and a questioned image
+# to identify simularity.
 #
 # Applications of this script include:
 # 1. Forensic image comparison
@@ -24,9 +24,9 @@
 # Process:
 # 1. Select a reference image file.
 # 2. Select a questioned image file.
-# 3. Perform image subtraction.
-# 4. Generate a difference image and quantitative similarity metrics.
-# 5. Output a report including the difference image, histograms, and similarity percentage.
+# 3. Perform image correlation.
+# 4. Generate a similarity metrics.
+# 5. Output a report.
 #
 # The script analyzes:
 # 1. Pixel differences between images
