@@ -33,20 +33,18 @@ The Forensic Image Comparison Tool was developed with considerations for Daubert
 - Python 3.6 or higher
 - pip package manager
 
-### Installation
+### Installation Guide
 
-1. Clone this repository:
+1. **Clone the Repository**:  
+   Start by cloning the repository to your local machine with the following commands:  
+   ```bash
+   git clone https://github.com/ronin4n6labs/IMG-Comparison-Tool-Python.git
+   cd IMG-Comparison-Tool-Python
+   ```
 
-```bash
-git clone https://github.com/ronin4n6labs/IMG-Comparison-Tool-Python.git
-cd IMG-Comparison-Tool-Python
-```
+2. **Install Dependencies**:  
+   Manually install the necessary packages by referring to the documentation or project notes for details on required dependencies.
 
-2. Install the required packages using pip:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Analysis Methods
 
